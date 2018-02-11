@@ -1,5 +1,31 @@
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0e/The_Orion_Nebula_with_Peripheral_Nebulosity.jpg);
+}
+
+h1 {
+  letter-spacing: 5px;
+  color:#4d94ff;
+  text-shadow: 2px 1px #ff9900;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+  padding-left: 0px;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .App {
   text-align: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 80%;
 }
 
 .App-logo {
@@ -25,4 +51,49 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.profile {
+  opacity: 0.75;
+  background-color: #e6f0ff;
+  border-bottom: 1px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #ff9900;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.grocery {
+  background-color: #e6f0ff;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 12px;
+  border-top: 2px;
+  border-style: solid;
+  border-color: #ff9900;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.todo {
+  opacity: 0.75;
+  margin-top: 20px;
+  background-color: #e6f0ff;
+  border-bottom: 1px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #ff9900;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 100%;
+}
+
+
+.button1 {
+  padding-top: 20px;
 }
